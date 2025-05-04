@@ -25,7 +25,7 @@ setup(
     long_description_content_type="text/markdown",
     url=about["__url__"],
     packages=find_packages(),
-    python_requires=">=3.12",
+    python_requires=">=3.11",
     install_requires=[
         "Click>=8.1.8",
         "protobuf>=6.30.0",
